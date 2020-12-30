@@ -1,2 +1,2 @@
 # JavaScript-projects-practice
-Collection of my JavaScript projects for practice
+Collection of my HTML/CSS/JavaScript projects for practice
