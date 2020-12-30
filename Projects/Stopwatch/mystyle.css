@@ -1,0 +1,26 @@
+body {
+    background-color: #fdab9f;
+}
+
+#wrapper {
+    margin: 50px;
+    text-align: center;
+    font-family: 'Tw Cen MT';
+    color: #404040;
+}
+
+h1 {
+    font-size: 100px
+}
+
+#circle {
+    border-radius: 400px;
+    border: 10px solid red;
+    padding: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 0;
+    width: 160px;
+    height: 160px;
+    line-height: 160px;
+}
