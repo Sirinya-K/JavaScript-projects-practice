@@ -23,3 +23,13 @@ h1 {
     height: 160px;
     line-height: 160px;
 }
+
+button {
+    font-family: 'Tw Cen MT';
+    font-size: 40px;
+    padding: 20px 50px;
+    /*h, w*/
+    border: 0 solid #404040;
+    border-radius: 10px;
+    margin: auto 100px;
+}
