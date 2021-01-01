@@ -37,4 +37,5 @@ resetButton.addEventListener('click', () => {
     second = 0;
     tens.innerHTML = "00";
     seconds.innerHTML = "00";
+    startStopButton.innerHTML = "Start"
 })
