@@ -24,7 +24,7 @@ function couting() {
 startStopButton.addEventListener('click', () => {
     if (startStopButton.innerHTML == "Start") {
         startStopButton.innerHTML = "Stop";
-        timeoutId = setInterval(couting, 100);
+        timeoutId = setInterval(couting, 10);
     } else {
         startStopButton.innerHTML = "Start"
         clearInterval(timeoutId);

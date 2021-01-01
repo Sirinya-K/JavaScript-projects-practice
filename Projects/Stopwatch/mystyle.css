@@ -29,7 +29,8 @@ button {
     font-size: 40px;
     padding: 20px 50px;
     /*h, w*/
+    width: 180px;
     border: 0 solid #404040;
     border-radius: 10px;
-    margin: auto 100px;
+    margin: auto 50px;
 }
