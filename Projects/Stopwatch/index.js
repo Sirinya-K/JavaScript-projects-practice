@@ -21,13 +21,25 @@ function couting() {
     else tens.innerHTML = "0" + ten;
 }
 
+function changeToStartButton() {
+    startStopButton.innerHTML = "Start"
+    startStopButton.style.background = "white";
+    startStopButton.style.color = "#404040";
+}
+
+function changeToStopButton() {
+    startStopButton.innerHTML = "Stop"
+    startStopButton.style.background = "#404040";
+    startStopButton.style.color = "white";
+}
+
 startStopButton.addEventListener('click', () => {
     if (startStopButton.innerHTML == "Start") {
-        startStopButton.innerHTML = "Stop";
         timeoutId = setInterval(couting, 10);
+        changeToStopButton()
     } else {
-        startStopButton.innerHTML = "Start"
-        clearInterval(timeoutId);
+        clearInterval(timeoutId)
+        changeToStartButton()
     }
 })
 
@@ -37,5 +49,5 @@ resetButton.addEventListener('click', () => {
     second = 0;
     tens.innerHTML = "00";
     seconds.innerHTML = "00";
-    startStopButton.innerHTML = "Start"
+    changeToStartButton()
 })

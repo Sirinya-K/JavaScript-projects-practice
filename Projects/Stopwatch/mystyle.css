@@ -31,6 +31,15 @@ button {
     /*h, w*/
     width: 180px;
     border: 0 solid #404040;
-    border-radius: 10px;
-    margin: auto 50px;
+    border-radius: 6px;
+    margin: auto 50px 30px;
+    transition: all 0.25s ease 0s;
+    cursor: pointer;
+    background: white;
+    color: #404040;
+    outline: none;
+}
+
+button:hover {
+    filter: brightness(90%);
 }
