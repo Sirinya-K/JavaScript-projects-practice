@@ -22,19 +22,19 @@ function couting() {
 }
 
 function changeToStartButton() {
-    startStopButton.innerHTML = "Start"
+    startStopButton.innerHTML = "START"
     startStopButton.style.background = "white";
     startStopButton.style.color = "#404040";
 }
 
 function changeToStopButton() {
-    startStopButton.innerHTML = "Stop"
+    startStopButton.innerHTML = "STOP"
     startStopButton.style.background = "#404040";
     startStopButton.style.color = "white";
 }
 
 startStopButton.addEventListener('click', () => {
-    if (startStopButton.innerHTML == "Start") {
+    if (startStopButton.innerHTML == "START") {
         timeoutId = setInterval(couting, 10);
         changeToStopButton()
     } else {

@@ -5,12 +5,12 @@ body {
 #wrapper {
     margin: 50px;
     text-align: center;
-    font-family: 'Tw Cen MT';
+    font-family: 'Roboto', sans-serif;
     color: #404040;
 }
 
 h1 {
-    font-size: 100px
+    font-size: 100px;
 }
 
 #circle {
@@ -25,15 +25,16 @@ h1 {
 }
 
 button {
-    font-family: 'Tw Cen MT';
-    font-size: 40px;
-    padding: 20px 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
     /*h, w*/
-    width: 180px;
+    width: 110px;
     border: 0 solid #404040;
-    border-radius: 6px;
-    margin: auto 50px 30px;
-    transition: all 0.25s ease 0s;
+    border-radius: 10px;
+    margin: auto 20px 20px;
+    transition-duration: 0.3s;
     cursor: pointer;
     background: white;
     color: #404040;
